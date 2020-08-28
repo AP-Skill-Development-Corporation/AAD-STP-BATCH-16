@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+     android:weightSum="2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/greeting"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_marginTop="30sp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="SaiGopal"
+        android:textColor="#0E2CD6"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Krishna"
+        android:textColor="#DF3D0A"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+
+    <!-- MatchParent: The Component want to display as big as its parent
+    and fill in the remaining spaces.-->
+    <!--WrapContent:   display enough to enclose its content only-->
+    <!--Dp : Densitive Scale Independent Pixel SP : Scale Independent Pixel-->
+
+
+</LinearLayout>
