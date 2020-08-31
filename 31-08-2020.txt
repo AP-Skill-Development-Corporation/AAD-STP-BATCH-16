@@ -1,0 +1,74 @@
+
+Toast
+.....
+
+1st-this,MainActivity.this,getapplicationcontext
+
+2nd-"hello"
+
+
+duration:LENGTH_SHORT,LENGTH_LONG
+
+Toast.maketext(this,"hello",Toast.LENGTH_LONG).show();
+
+textsize-20sp,30sp,50sp
+
+width="100dp"
+
+height="100dp"
+
+Intent:
+------
+intent is class which can be declared below
+
+syntax:Intent
+
+Intents are two types
+
+1.explicit intent
+
+2.implicit intent
+
+1.explicit intent:
+------------------
+we can navigate one screen to another screen
+
+syntax:
+-------
+
+Intent i=new Intent(this,Second.class);
+
+startactivity(i);
+
+2.Implicit Intent:
+------------------
+to navigate from another application
+
+Uri u=Uri.parse("http://www.google.com");
+
+Intent i=new Intent(Intent.ACTION_VIEW,u);
+
+startactivity(i);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
