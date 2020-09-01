@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/linear1"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <ImageButton
+       android:layout_width="100sp"
+       android:layout_height="100sp"
+       android:src="@drawable/smile"
+       android:layout_gravity="center"
+       android:layout_marginTop="20sp"
+       android:onClick="selectSmile"/>
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Gender"
+       android:gravity="center"
+       android:textSize="24sp"/>
+   <RadioGroup
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/rg1">
+      <RadioButton
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/rb1"
+          android:text="Male"/>
+      <RadioButton
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/rb2"
+          android:text="Female"/>
+
+   </RadioGroup>
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="ProgrammingLanguages"
+       android:gravity="center"
+       android:textSize="34sp"/>
+   <CheckBox
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/check1"
+       android:text="C,C++"/>
+   <CheckBox
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/check2"
+       android:text="Java"/>
+   <CheckBox
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/check3"
+       android:text="Android"/>
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Submit"
+       android:onClick="save"/>
+   <Switch
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/switch1"
+       android:layout_gravity="center"
+       android:onClick="aSwitchclick"/>
+   <Spinner
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/sp1"/>
+
+
+</LinearLayout>
+</ScrollView>
